@@ -60,6 +60,34 @@ Step 3: Visual Design <br/>
 
 Verified column data types and filtered out non-essential transactions (REV%, SDC, VAT, etc.).
 
+📈 Insights
+Total Transaction Volume: ₦1,073,043,066.09
+
+Top Channels by Volume:
+
+FLEXSWITCH: ₦948M+
+
+LAPOIBANKMOB: ₦113M+
+
+NIPINCM: ₦6.6M
+
+Most Used Products:
+
+Savings Account - Staff
+
+Regular Savings
+
+Xpress Savings
+
+Top Zones by Activity:
+
+Lagos Mainland Zone
+
+FCT Zone
+
+Lagos West Zone
+
+
 <br />
 <br />
 
