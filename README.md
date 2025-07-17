@@ -29,7 +29,7 @@ With over ₦1 billion in transaction value, this dashboard reveals which channe
 Step 1: Data Preparation <br/>
  <h3>SQL queries were used to extract transaction records from core banking systems. </h3>
 
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sPB5CCz.png" height="80%" width="80%" alt="Channels dashboard"/>
 <br />
 <br />
 Select the disk:  <br/>
