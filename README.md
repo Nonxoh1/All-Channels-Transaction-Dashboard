@@ -14,10 +14,11 @@ With over ₦1 billion in transaction value, this dashboard reveals which channe
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>📂 Tools & TechnologiesUsed</h2>
 
-- <b>Oracle SQL</b> 
-- <b>MS Power BI</b>
+- <b>SQL	Data extraction, transformations</b> 
+- <b>Power BI	Data visualization & reporting</b>
+
 
 <h2>Environments Used </h2>
 
@@ -26,35 +27,47 @@ With over ₦1 billion in transaction value, this dashboard reveals which channe
 <h2>Steps Followed:</h2>
 
 <p align="center">
-Step 1: Data Preparation <br/>
- <h3>SQL queries were used to extract transaction records from core banking systems. </h3>
-
+Step 1: Data Preparation 
 <img src="https://i.imgur.com/vs1hLq0.jpeg" height="80%" width="80%" alt="Channels dashboard"/>
+
+<p align="left">SQL queries were used to extract transaction records from core banking systems.
+<br>Important fields included: USER_ID, ACCOUNT_NAME, TRN_DESC, AMOUNT, ZONE, BRANCH_NAME, CUSTOMER_NAME.</br>
+
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center">
+Step 2: Power BI load <br/>
+<img src="https://i.imgur.com/OsNL3Se.jpeg" height="80%" width="80%" alt="Power Query Steps Steps"/>
+ 
+ <p align="left">Data loaded directly from CSV extracts into Power BI Desktop.
+  
+  <br>Relationships automatically detected and adjusted as necessary.
+  Light transformation was done (most data was already clean).
+
+Verified column data types and filtered out non-essential transactions (REV%, SDC, VAT, etc.).
+
+Ensured no sensitive fields (e.g. mobile numbers) were retained in the report.
+
+</br>
+</br>
+<p align="center">
+Step 3: Visual Design <br/>
+<img src="https://i.imgur.com/CAhtiTQ.jpeg" height="80%" width="80%" alt="Dashbaord Design"/>
+ 
+ <p align="left">A Decomposition Tree Visual was used to break down transaction flow in this order:
+  
+  <br>Platform ➝ Account Product ➝ Transaction Type ➝ Zone ➝ Branch ➝ Customer Name
+
+Verified column data types and filtered out non-essential transactions (REV%, SDC, VAT, etc.).
+
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+ 
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
